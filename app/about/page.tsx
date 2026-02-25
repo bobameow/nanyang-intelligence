@@ -10,7 +10,10 @@ export default function Page() {
       <p className="mb-8 text-neutral-800 dark:text-neutral-200">
         {`Curious what AI could look like in your business? Leave your email and we'll be in touch within 24 hours.`}
       </p>
-      <form action="https://formspree.io/f/placeholder" method="POST" className="flex flex-col gap-4 max-w-sm">
+      <form action="https://formsubmit.co/jovan@nanyangintelligence.com" method="POST" className="flex flex-col gap-4 max-w-sm">
+        <input type="hidden" name="_subject" value="New contact from NanyangIntelligence.com" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="https://nanyangintelligence.com/about" />
         <input
           type="email"
           name="email"
